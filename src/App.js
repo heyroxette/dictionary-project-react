@@ -6,11 +6,6 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         Dictionary App
-        <div className="mt-3">
-          <a href="#" className="btn btn-primary shadow">
-            Search
-          </a>
-        </div>
       </header>
     </div>
   );
