@@ -11,7 +11,19 @@ export default function App() {
           <Dictionary />
         </main>
         <small>
-          <footer className="App-footer"> Coded by Roxette Garcia</footer>
+          <footer className="App-footer mt-5">
+            {" "}
+            Coded by Roxette Garcia, open source code on {" "}
+            <a
+              href="https://github.com/heyroxette/dictionary-project-react"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Github
+            </a>
+            .
+          </footer>
         </small>
       </div>
     </div>
