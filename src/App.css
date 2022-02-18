@@ -1,3 +1,14 @@
+body {
+  background:#FFC0CB;
+}
+
+h1 {
+  color: #F5FFFA;
+  font-family: 'Redressed', cursive;
+  font-size: 70px;
+}
+
+
 .App {
   text-align: center;
   margin: 30px 0;
@@ -5,4 +16,12 @@
 
 .App-footer {
   margin: 30px 0;
+}
+
+.App-footer a {
+  color: black;
+}
+
+.App-footer a:hover {
+  color: white;
 }
