@@ -1,6 +1,5 @@
 .Dictionary {
   margin-top: 30px;
-  
 }
 
 .Dictionary .content {
@@ -8,12 +7,21 @@
   font-family: 'Noto Sans SC', sans-serif;
 }
 
+.Dictionary input{
+  width:40%;
+  text-align: center;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  color: #333;
+}
+
 .Dictionary section {
   background-color: #FFF0F5;
   padding: 30px;
   margin: 30px;
   border-radius: 16px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .Dictionary .content h2 {
@@ -22,4 +30,9 @@
 
 .Dictionary p {
   font-weight: 300;
+  color:#333;
+}
+
+.Dictionary .hint {
+  font-size: 13px;
 }

@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           {" "}
-          <h1> Dictionary </h1>{" "}
+          <h1> Dictionary 📖</h1>{" "}
         </header>
         <main>
           <Dictionary />
