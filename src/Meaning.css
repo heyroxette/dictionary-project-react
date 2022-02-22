@@ -1,5 +1,5 @@
 .Meaning h3 {
-font-size: 24px;
+font-size: 26px;
 line-height:  1.5;
 font-weight: bold;
 }
@@ -7,12 +7,12 @@ font-weight: bold;
 .Meaning .definition {
   line-height: 2;
   font-family: 'Noto Sans SC', sans-serif;
-  
+  font-size: 15px;
 }
 
 .Meaning .example {
   font-size: 13px;
-  opacity: 0.7;
+  opacity: 0.8;
   font-family: 'Noto Sans SC', sans-serif;
   font-style: italic;
   line-height: 3;

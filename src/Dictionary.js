@@ -9,7 +9,6 @@ export default function Dictionary(props) {
   let [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
-    console.log(response.data);
     setResults(response.data[0]);
   }
 
@@ -35,13 +34,20 @@ export default function Dictionary(props) {
 
   if (loaded) {
     return (
-       <div className="Dictionary">
-        <form onSubmit={handleSubmit}>
-         <input type="search" onChange={handleKeywordChange} />
-        </form>
-       <div className="hint mt-2">suggested words: cat, spring, flower</div>
-         <Results results={results} />
-        </div>
+      <div className="Dictionary">
+        <section>
+          <h4>What word do you want to look up?</h4>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            />
+          </form>
+          <div className="hint mt-2">suggested words: cat, spring, flower</div>
+        </section>
+        <Results results={results} />
+      </div>
     );
 } else {
   load();

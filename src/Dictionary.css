@@ -28,6 +28,12 @@
   font-weight: 900;
 }
 
+.Dictionary h4 {
+font-family: 'Noto Sans SC', sans-serif;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
 .Dictionary .hint {
   font-size: 13px;
 }
