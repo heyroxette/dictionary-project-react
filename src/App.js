@@ -11,7 +11,7 @@ export default function App() {
           <h1> Dictionary </h1>{" "}
         </header>
         <main>
-          <Dictionary defaultKeyword="cat"/>
+          <Dictionary defaultKeyword="cat" />
         </main>
         <small>
           <footer className="App-footer mt-5">
@@ -25,7 +25,7 @@ export default function App() {
               {" "}
               Github
             </a>
-            .
+            . 
           </footer>
         </small>
       </div>
